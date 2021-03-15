@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/slyle.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Figma maket</title>
 </head>
 <body>
@@ -14,33 +14,42 @@
             <div class="header_wrapper">
                 <div class="header_logo">
                      <div class="header_logo-link">
-                        <img src="img/svg/odigo-Logo.svg" alt="Discover amasing places "class="header_logo-pic">
+                        <img src="img/svg/odigo-Logo.svg" alt="Discover amasing places" class="header_logo-pic">
                      </div>
                 </div>
-                <nav class="header_nav">
+                <nav class="header__nav">
                     <ul class="header_list">
-                        <li class="header_item">
-                            <a href="#" class="header_item-link">
+                        <li class="header__item">
+                            <a href="#articles" class="header__item-link scroll-to">
                                 Articles
                             </a>
                         </li>
-                        <li class="header_item">
-                            <a href="#" class="header_item-link">
+                        <li class="header__item">
+                            <a href="#locations" class="header__item-link scroll-to">
                                 Locations
                             </a>
                         </li>
-                        <li class="header_item">
-                            <a href="#" class="header_item-link">
+                        <li class="header__item">
+                            <a href="#videos" class="header__item-link scroll-to">
                                 Videos
                             </a>
                         </li>
-                        <li class="header_item">
-                            <a href="#" class="header_item-link">
+                        <li class="header__item">
+                            <a href="#sign-in" class="header__item-link scroll-to">
                                 Sign in
                             </a>
                         </li>
                     </ul>
+                    <div class="header__nav-close">
+                        <span class="header__nav-close-line"></span>
+                        <span class="header__nav-close-line"></span>
+                    </div>
                 </nav>
+                <div class="header__burger burger">
+                    <span class="burger__line burger__line-1"></span>
+                    <span class="burger__line burger__line-2"></span>
+                    <span class="burger__line burger__line-3"></span>
+                </div>
                 
             </div>
         </div>
@@ -48,7 +57,7 @@
     <!--header end-->
     <main class="main">
         <!--intro start-->
-        <section class="intro">
+        <section class="intro" id="sign-in">
             <div class="wrapper">
                 <h1 class="intro_title">
                     Discover Amazing places in Japan
@@ -58,7 +67,7 @@
                     Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over. Being gorgeous with belly side up i could pee on this if i had the energy but under the bed, for attack the child, open the door, 
                 </p>
                 <form  class="search-form">
-                    <fieldset class="saerch_form_wrap">
+                    <fieldset class="search_form_wrap">
                         <p class="search-form_info">
                             <input type="text" name="user-like-to-do" class="search-form_field" placeholder="What would you like to do?">
                             <input type="text"  name="user-like-to-go" class="search-form_field" placeholder="Where would you like to go?">
@@ -179,7 +188,7 @@
         <!--places end-->
 
         <!--tour start-->
-        <div class="tour">
+        <div class="tour" id="articles">
             <div class="wrapper_full">
                 <div class="tour_wrap">
                     <div class="tours__tour tour">
@@ -206,7 +215,7 @@
                             </p>
                             <a href=#! class="tour__more">VIEW NEIGHBORHOODE</a>
                         </div>
-                        <div class="tour__pic">
+                        <div class="tour__pic tour__pic_mob-first">
                             <img src="./img/tour-2.jpg" alt="Featured Neighborhood: Kyoto’s Arashiyama" class="tour_thumb">
                         </div>
                         
@@ -217,7 +226,7 @@
         <!--tour end-->
 
         <!--Top start-->
-        <div class="top">
+        <div class="top" id="locations">
             <div class="wrapper_full">
                 <h2 class="top_title section_title">
                     Today top places to visit
@@ -380,7 +389,7 @@
         </div>
         <!--Top end-->
         <!--Videos start-->
-        <div class="videos">
+        <div class="videos" id="videos">
             <div class="videos__wrapper">                
                 <div class="video__item"></div>
                 <iframe class="video_element" src="https://www.youtube.com/embed/Gb0TQ7VeApY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -394,12 +403,68 @@
                     <div class="footer__logo">
                         <img src="./img/svg/odigo-Logo-footer.svg" alt="" class="footer__logo-pic">
                     </div>
+                
+                    <nav class="footer__nav">
+                        <ul class="footer__menu">
+                            <li class="footer__menu-item">
+                                <li class="footer__menu-title">Company</li>
+                                <li class="footer__manu-item">
+                                    <a href="" class="footer__menu-link">About</a>
+                                </li>
+                                <li class="footer__manu-item">
+                                    <a href="" class="footer__menu-link">Team</a>
+                                </li>
+                                <li class="footer__manu-item">
+                                    <a href="" class="footer__menu-link">Careers</a>
+                                </li>
+                                <li class="footer__manu-item">
+                                    <a href="" class="footer__menu-link">Privacy Policy</a>
+                                </li>
+
+                        </ul>
+                        <ul class="footer__menu">
+                            <li class="footer__menu-item">
+                                <li class="footer__menu-title">Location</li>
+                                <li class="footer__menu-item">
+                                    <a href="" class="footer__menu-link">About</a>
+                                </li>
+                                <li class="footer__menu-item">
+                                    <a href="" class="footer__menu-link">Team</a>
+                                </li>
+                                <li class="footer__menu-item">
+                                    <a href="" class="footer__menu-link">Careers</a>
+                                </li>
+                                <li class="footer__menu-item">
+                                    <a href="" class="footer__menu-link">Privacy Policy</a>
+                                </li>
+
+                        </ul>
+                        <ul class="footer__menu">
+                            <li class="footer__manu-item">
+                                <li class="footer__menu-title">Social Media</li>
+                                <li class="footer__manu-item">
+                                    <a href="" class="footer__menu-link">About</a>
+                                </li>
+                                <li class="footer__manu-item">
+                                    <a href="" class="footer__menu-link">Team</a>
+                                </li>
+                                <li class="footer__manu-item">
+                                    <a href="" class="footer__menu-link">Careers</a>
+                                </li>
+                                <li class="footer__manu-item">
+                                    <a href="" class="footer__menu-link">Privacy Policy</a>
+                                </li>
+
+                        </ul>
+                    </nav>
                 </div>
             </div>
 
         </footer>
         <!--Footer end-->
     </main >
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" data-integrity="sha384-c41b90ff1ce696c2e8269ca3a208264c4cfc396505334fd10b906ca900435f6bf970cbc31dc31a90d4cdac7216d88e5f" crossorigin="anonymous"></script>
     <script src='./js/main.js'></script>
+    
 </body>
 </html>
