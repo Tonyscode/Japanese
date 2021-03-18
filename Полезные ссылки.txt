@@ -7,7 +7,7 @@ https://www.youtube.com/watch?v=BnWGA4tJ-2s&list=PL5_s7xdj2Vsw-bCx5nOZJMFIiHwRgo
 4. Исправим неточности в CSS;
 5. Провалидируем HTML документ и избавимся от ошибок. 
 
-
+ttps://realfavicongenerator.net - генерация иконок
 
 CSS Minify - https://clck.ru/Jr7D5​
 JS Minify - https://clck.ru/Jr7MH​
