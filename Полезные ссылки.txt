@@ -1,0 +1,18 @@
+https://www.youtube.com/watch?v=BnWGA4tJ-2s&list=PL5_s7xdj2Vsw-bCx5nOZJMFIiHwRgok--&index=10 - уроки
+Скачать материалы урока - https://steptoweb.info/youtube.html#l...​
+В девятом видео из серии роликов по верстке сайта из графического редактора Figma с нуля мы с вами:
+1. Реализуем плавный скролл по странице на чистом JS;
+2. Обсудим необходимость оптимизации скорости загрузки сайта;
+3. Выполним ряд практических рекомендаций для ускорения работы лендинга;
+4. Исправим неточности в CSS;
+5. Провалидируем HTML документ и избавимся от ошибок. 
+
+
+
+CSS Minify - https://clck.ru/Jr7D5​
+JS Minify - https://clck.ru/Jr7MH​
+Babel online - https://clck.ru/Jr7TU​
+w3validator - https://clck.ru/D3Uzp​
+Оптимизация изображений онлайн - https://clck.ru/EcJRc​
+
+Ссылка на макет - https://www.figma.com/file/ClPSP7KCU1...
